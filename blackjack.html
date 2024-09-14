@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("blackjack.jpg");
+    background-size: cover;
+    font-weight: bold;
+    color: rebeccapurple;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    font-weight: 1100;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#message-el {
+    font-style: italic;
+    color: black;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+    </style>
+</head>
+<body>
+    <h1>Blackjack</h1>
+    <p id="message-el">Want to play a round?</p>
+    <p id="card">Cards:</p>
+    <p id="sum1">SUM:</p>
+    <button onclick="startgame()">START GAME</button>
+    <button onclick="newcard()">NEW CARD:</button>
+    <p id="player"></p>
+    <script src="basicrevstringnum.js"></script>
+</body>
+</html>
